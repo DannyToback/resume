@@ -1,0 +1,268 @@
+/* CSS - Cascading Style Sheet */
+
+*{
+  box-sizing: border-box;
+}
+
+section.Header{
+  display flex;
+  width: 100%;
+  border-style: solid;
+  border-radius: 1px;
+  background-color: red;
+}
+
+section.AboutMe{
+  border-style: solid;
+  border-radius: 1px;
+  width: 100%;
+  align-items: flex-start;
+  background-color: orange;
+
+}
+
+h3.AboutMe{
+  display:flex;
+  clear: both;
+  float: left;
+}
+
+p.AboutMe{
+  display: flex;
+  float: left;
+}
+
+img.AboutMe{
+  display: flex;
+  float: left;
+}
+
+#imgClass{
+  width: 20%;
+  float: right;
+}
+
+img.AboutMe{
+  display: inline-block;
+  float: left;
+}
+
+section.OtherCourseWork{
+  border-style: solid;
+  border-radius: 1px;
+  width: 100%;
+  background-color: yellow;
+
+}
+
+h3.OtherCourseWork{
+  display: flex;
+  clear:both;
+}
+
+h5.OtherCourseWork{
+  display: flex;
+  clear: both;
+}
+
+h3.Portfolio{
+  display: flex;
+  clear:both;
+}
+
+h5.Portfolio{
+  display: flex;
+  clear:both;
+}
+
+p.Portfolio{
+  display: flex;
+  clear:both;
+}
+
+section.Portfolio{
+  border-style: solid;
+  border-radius: 1px;
+  width: 100%;
+  clear: both;
+  overflow: auto;
+  background-color: green;
+
+}
+
+.left{
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.right{
+  text-align: center;
+}
+
+.pone{
+  float:left;
+  width:100%;
+}
+.ptwo{
+  float:left;
+  width:100%;
+}
+.pthree{
+  float:right;
+  width:100%;
+}
+
+h3.AboutTheCourse{
+float: left;
+}
+
+p.AboutTheCourse{
+  float: left;
+  clear: both;
+}
+
+section.AboutTheCourse{
+  width: 100%;
+  border-style: solid;
+  border-radius: 1px;
+  background-color: blue;
+
+}
+
+/* media queries */
+/* large screen */
+@media (min-width: 992px){
+  .left{
+    text-align: left;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .right{
+    text-align: right;
+  }
+  div.pone{
+    width: 33%;
+  }
+  div.ptwo{
+    width: 33%;
+  }
+  div.pthree{
+    width: 33%;
+  }
+  section.Header{
+    /* width:33%; */
+    padding: 10%
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }section.AboutMe{
+    /* width:33%; */
+    padding: 10%;
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }section.MyFace{
+    /* width:33%; */
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }
+  section.OtherCourseWork{
+    /* width:33%; */
+    padding: 10%;
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }
+  section.AboutTheCourse{
+    /* width:33%; */
+    padding: 10%;
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }
+  section.Portfolio{
+    /* width:33%; */
+    padding: 10%;
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }
+}
+
+/*ipad*/
+@media (min-width: 768px) and (max-width: 991px){
+  div.pone{
+    width: 50%;
+  }
+  div.ptwo{
+    width: 50%;
+  }
+  div.pthree{
+    width: 100%;
+  }
+
+  section.Header{
+    padding: 5%;
+    /* width:50%; */
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }section.AboutMe{
+    /* width:50%; */
+    padding: 5%;
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }section.MyFace{
+    /* width:50%; */
+    padding: 5%;
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }
+  section.OtherCourseWork{
+    /* width:50%; */
+    padding: 5%;
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }
+  section.AboutTheCourse{
+    /* width:50%; */
+    padding: 5%;
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }
+  section.Portfolio{
+    /* width:50%; */
+    padding: 5%;
+    background-color:rgba(F,F,F,0.1); /*white*/
+  }
+}
+
+body {
+  background-color: #FFFFFF;
+}
+h1 {
+  color: #960018;
+}
+h2 {
+  color: #960018;
+}
+h3 {
+  color: #960018;
+}
+h4 {
+  color: #960018;
+}
+h5 {
+  color: #960018;
+}
+p {
+  color: #000000;
+}
+a{
+  color: #9C0008;
+}
+
+.color-primary-0 { color: #000000 }	/* Main Primary color */
+.color-primary-1 { color: #EBEBEB }
+.color-primary-2 { color: #960018 }
+.color-primary-3 { color: #000000 }
+.color-primary-4 { color: #F30026 }
+
+.color-complement-0 { color: #000000 }	/* Main Complement color */
+.color-complement-1 { color: #F4F4F4 }
+.color-complement-2 { color: #9C0008 }
+.color-complement-3 { color: #000000 }
+.color-complement-4 { color: #FB000D }
