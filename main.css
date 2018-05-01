@@ -4,12 +4,22 @@
   box-sizing: border-box;
 }
 
+.nav-class{
+  background-color: #383838;
+  color: #DCDCDC;
+  height: 50px;
+  opacity: .8;
+}
+
+.Portfolio{
+  	font-family: 'Raleway', sans-serif;
+  	font-stretch: expanded;
+}
+
 section.Header{
   display flex;
   width: 100%;
-  border-style: solid;
-  border-radius: 1px;
-  background-color: red;
+
 }
 
 section.AboutMe{
@@ -65,30 +75,12 @@ h5.OtherCourseWork{
   clear: both;
 }
 
-h3.Portfolio{
-  display: flex;
-  clear:both;
-}
 
-h5.Portfolio{
-  display: flex;
-  clear:both;
-}
-
-p.Portfolio{
-  display: flex;
-  clear:both;
-}
-
-section.Portfolio{
-  border-style: solid;
-  border-radius: 1px;
+/* .Portfolio{
   width: 100%;
   clear: both;
   overflow: auto;
-  background-color: green;
-
-}
+} */
 
 .left{
   text-align: center;
@@ -183,7 +175,7 @@ section.AboutTheCourse{
   }
   section.Portfolio{
     /* width:33%; */
-    padding: 10%;
+    /* padding: 10%; */
     background-color:rgba(F,F,F,0.1); /*white*/
   }
 }
@@ -225,7 +217,7 @@ section.AboutTheCourse{
   }
   section.Portfolio{
     /* width:50%; */
-    padding: 5%;
+    /* padding: 5%; */
     background-color:rgba(F,F,F,0.1); /*white*/
   }
 }
@@ -252,7 +244,8 @@ p {
   color: #000000;
 }
 a{
-  color: #9C0008;
+  font-size: 18px;
+  color: black;
 }
 
 .color-primary-0 { color: #000000 }	/* Main Primary color */
