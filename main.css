@@ -47,9 +47,19 @@ img.AboutMe{
   float: left;
 }
 
+.alltextblack{
+  color: black;
+}
+
 #imgClass{
   width: 20%;
   float: right;
+}
+
+.imgClass{
+  width: 70%;
+  margin-top: 10px;
+  /* height: 5%; */
 }
 
 img.AboutMe{
